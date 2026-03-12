@@ -47,10 +47,3 @@ let val: unknown = "Ehsan";
 if (typeof val === "string") {
   console.log(val.toUpperCase());  
 }
-
-
-//annotation : 
-let a : number | boolean | string;
-a = 22;
-a = true;
-a = 'hello';

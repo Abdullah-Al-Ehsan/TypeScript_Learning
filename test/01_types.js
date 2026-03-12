@@ -29,8 +29,3 @@ let val = "Ehsan";
 if (typeof val === "string") {
     console.log(val.toUpperCase());
 }
-//annotation : 
-let a;
-a = 22;
-a = true;
-a = 'hello';
