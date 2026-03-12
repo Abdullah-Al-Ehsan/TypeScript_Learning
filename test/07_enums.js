@@ -31,8 +31,8 @@ var Direction;
 function movePlayer(direction) {
     console.log("Player moves:", direction);
 }
-movePlayer(Direction.Left);
-movePlayer(Direction.Down);
+movePlayer(Direction.Left); //2
+movePlayer(Direction.Down); //1
 // Exanples :   Common in backend systems
 var Role;
 (function (Role) {

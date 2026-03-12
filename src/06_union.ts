@@ -24,19 +24,18 @@ function showValue(value: number | string) {
 
 
 
-
 // Intersection Type (&) : combine multiple types together.
 
-interface Person {
-  name: string;
+interface person {
+  pname: string;
 }
 interface Employee {
   employeeId: number;
 }
 
-type Staff = Person & Employee;   // merged
+type Staff = person & Employee;   // merged
 
 const worker: Staff = {
-  name: "Akil",
+  pname: "Akil",
   employeeId: 101
 };

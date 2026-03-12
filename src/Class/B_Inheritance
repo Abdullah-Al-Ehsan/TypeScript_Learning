@@ -1,0 +1,32 @@
+
+//Inheritance (extends)   + Method Overriding  :
+
+class Animal {
+  petname: string;
+
+  constructor(petname: string) {
+    this.petname = petname;
+  }
+
+  speak(): void {
+    console.log(" Animal Sound ");
+  }
+}
+
+
+// Dog inherits Animal:
+class Dog extends Animal {
+
+  bark() {
+    console.log(this.petname + " barks");
+  }
+
+  speak(): void {            // Methos speak() overrides here
+      console.log(" grrr ")
+  }
+}
+
+const d1 = new Dog("Tommy");
+console.log(d1.petname);
+d1.speak();
+d1.bark();

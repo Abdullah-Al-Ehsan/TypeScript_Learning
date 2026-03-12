@@ -14,6 +14,6 @@ function showValue(value) {
     }
 }
 const worker = {
-    name: "Akil",
+    pname: "Akil",
     employeeId: 101
 };
