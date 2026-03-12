@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./test",
+    "strict": true,
+    "sourceMap": false,
+    "declaration": false
+  }
+}
